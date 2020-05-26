@@ -5,7 +5,7 @@ console.log(add(2, 4))
 
 function multiply (a, b){
     for (let i = 0; i < b; i++){
-        return a * b;
+        
     }
 }
 console.log(multiply(4, 6))
