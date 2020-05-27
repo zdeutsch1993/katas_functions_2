@@ -22,5 +22,10 @@ function power (x, n){
 console.log(power(2,8))
 
 function factorial(f){
-    
+    let miami = f;
+    for(let i = 1; i < f; i++){
+        miami = multiply(i, miami);
+    }
+    return miami
 }
+console.log(factorial(5))
